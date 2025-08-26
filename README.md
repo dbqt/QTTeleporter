@@ -1,18 +1,31 @@
-# QT Teleporter
+# QT Teleporter v2.0.0
 Teleportation system prefab for VRChat Avatar 3.0.
 
-Simple asset, easy to install with only 2 boolean parameters and 2 animation layers.
+- Simple asset, easy to install with only 2 boolean parameters and 2 animation layers.
+- [Modular Avatar compatible](https://modular-avatar.nadena.dev/).
+- Works on any avatar built with VRCAvatarSDK 3.0.
+- Only PCVR and Desktop compatible.
+- Not Quest compatible.
 
-Only PCVR and Desktop compatible, not Quest compatible.
+# Installation
 
-## Usage
-From the expression menu, you can drop either Portal A or Portal B.
-Any other user than yourself can sit on either portals, and when they get out of the station, they will be at the location of the other portal.
+## Requirements
+ - Unity 2022.3.22f1 (recommended)
+ - Latest VRCAvatarSDK3.0
+ - An avatar already setup and ready to be uploaded to VRChat
 
-## Installation
-[Youtube installation guide](https://www.youtube.com/watch?v=PCiYrx87aYc)
+## Modular Avatar Setup (easiest)
+1. Ensure you have [Modular Avatar](https://modular-avatar.nadena.dev/) setup in your project.
+2. Download the latest release from [GitHub Releases](https://github.com/dbqt/QTTeleporter/releases)
+3. Import into your Unity project
+4. Drag the prefab "QTTeleporter-ModularAvatar" into the root of your avatar.
+5. Optionally [customize where the menu is installed](https://modular-avatar.nadena.dev/docs/reference/menu-installer).
+6. That's it.
 
-### Base installation
+## Manual installation
+
+[Youtube manual installation guide](https://www.youtube.com/watch?v=PCiYrx87aYc)
+
 1. Download the latest release from [GitHub Releases](https://github.com/dbqt/QTTeleporter/releases)
 2. Import the unitypackage into your project.
 3. From the folder QTTeleporter, drag the prefab QTTeleporter into the scene.
@@ -37,5 +50,12 @@ Any other user than yourself can sit on either portals, and when they get out of
 ### Customization
 If you want to customize the portals themselves, you can replace the models that are under QTTeleporter/WorldAnchor/Container/ContraintA/StationsA/ModelA (or B) with your own 3D model
 
+# Usage
+From the expression menu, you can drop either Portal A or Portal B.
+Any other user than yourself can sit on either portals, and when they get out of the station, they will be at the location of the other portal.
+
+# License
 Feel free to modify as you see fit, this is under MIT license.
-If you have any questions, join the [Discord](https://discord.com/invite/kmdh6RQ) to ask me directly.
+
+# Help
+If you have any questions, join the [Discord](https://discord.com/invite/kmdh6RQ).
