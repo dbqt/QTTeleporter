@@ -44,7 +44,7 @@ Teleportation system prefab for VRChat Avatar 3.0.
 3. Drag your VRC avatar descriptor into the panel.
 4. Open the FX section and click on add animator to merge.
 5. Add the animator QTTeleporter FX to merge as new.
-6. On the avatar's VRCAvatarDescriptor, open your existing Expression Menu and add QTTeleporterMenu as a sub menu item to your existing menu.
+6. On the avatar's VRCAvatarDescriptor, open your existing Expression Menu and add QTTeleporterSubMenu as a sub menu item to your existing menu. Or if you don't have one, you can use the QTTeleporterMenu directly.
 7. On the avatar's VRCAvatarDescriptor, open your existing Expression Parameters and copy all the parameters from QTTeleporterParameters over exactly the same way.
 
 ### Customization
