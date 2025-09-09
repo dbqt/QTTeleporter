@@ -48,11 +48,20 @@ Teleportation system prefab for VRChat Avatar 3.0.
 7. On the avatar's VRCAvatarDescriptor, open your existing Expression Parameters and copy all the parameters from QTTeleporterParameters over exactly the same way.
 
 ### Customization
-If you want to customize the portals themselves, you can replace the models that are under QTTeleporter/WorldAnchor/Container/ContraintA/StationsA/ModelA (or B) with your own 3D model
+- If you want to customize the appearance of the portals, you can edit the materials PortalMatA and PortalMatB:
+    - Emission color
+    - Opacity (how much you can see through)
+    - Whether it uses the billboard effect (the portal always faces you)
+    - Rotation speed
+    - If you decide to change the textures, the top left 8x8 corner is the color used for the base of the teleporter, make sure to also update the mask if needed.
+- If you want to change the portals themselves, you can replace the models that are under QTTeleporter/WorldAnchor/Container/ContraintA/StationsA/ModelA (or B) with your own 3D model.
 
 # Usage
 From the expression menu, you can drop either Portal A or Portal B.
-Any other user than yourself can sit on either portals, and when they get out of the station, they will be at the location of the other portal.
+
+Any other user than yourself can "sit" on either portals, they will be at the location of the other portal.
+
+If only one portal is placed, the other user will be teleporter to you.
 
 # License
 Feel free to modify as you see fit, this is under MIT license.
