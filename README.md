@@ -9,6 +9,9 @@ Teleportation system prefab for VRChat Avatar 3.0.
 
 # Installation
 
+## Notes
+**If you are updating from a version older than v2.0.0, I recommend you remove the asset from your project and do a clean install of this asset.**
+
 ## Requirements
  - Unity 2022.3.22f1 (recommended)
  - Latest VRCAvatarSDK3.0
@@ -68,3 +71,6 @@ Feel free to modify as you see fit, this is under MIT license.
 
 # Help
 If you have any questions, join the [Discord](https://discord.com/invite/kmdh6RQ).
+
+# More
+Find more about my things at [dbqt.net](https://dbqt.net/)
