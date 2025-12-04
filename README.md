@@ -71,6 +71,3 @@ Feel free to modify as you see fit, this is under MIT license.
 
 # Help
 If you have any questions, join the [Discord](https://discord.com/invite/kmdh6RQ).
-
-# More
-Find more about my things at [dbqt.net](https://dbqt.net/)
